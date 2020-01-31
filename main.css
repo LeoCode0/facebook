@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+header{
+    padding-top: 10px;
+    background: linear-gradient(#4d68a2, #425f9c);
+}
+
+.header-image{
+    background-image: url('/images/facebook.png');
+    height: 50px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+.header-image a{
+    height: 300px;
+    display: none;
+    width: 300px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-form form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20% 70% 10%;
+    font-size: 12px;
+    color: white;
+}
+
+.header-form input{
+    width: 150px;
+    height: 18px;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.btn input{
+    width: 100px;
+    border: 1px solid black;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    height: 20px;
+}
+
+.btn input:hover{
+    background-color: none;
+}
+
+.header-form a{
+    margin: 5px 0;
+    width: 129px;
+    color: #9cb4d8;
+    text-decoration: none;
+}
+
+main{
+    background: linear-gradient(white, #d3d8e8);
+}
+
+main .container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: auto;
+}
+
+.image{
+    margin-top: 10px;
+    margin-right: 90px;
+}
+
+.formulario-cuenta{
+    margin-left: 20px;
+}
+
+.formulario-cuenta input{
+    padding: 10px;
+    height: 20px;
+    border-radius: 6px;
+    border:  1px solid gray;
+    font-size: large;
+}
+
+.nombre-apellido input{
+    width: 30%;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.formulario-celular{
+    width: 69%;
+    margin-bottom: 10px;
+}
+
+.contrasena{
+    width: 69%;
+}
+
+.image img{
+    height: 195px;
+    width: 537px;
+}
+
+form h3{
+    font-size: 16px;
+    opacity: 0.5;
+}
+
+.btn-register button{
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(#63a551, #578943);
+    border-radius: 9px;
+    color: white;
+    font-weight: 500;
+    font-size: larger;
+    cursor: pointer;
+}
+
+form p{
+    font-size: 12px;
+    opacity: 0.7;
+    width: 330px;
+}
+
+form a{
+    color: blue;
+    text-decoration: none;
+}
+
+.crea{
+    width: 420px;
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.crea a{
+    color: #3858aa;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.crea a:hover, form a:hover{
+    text-decoration: underline;
+}
+
